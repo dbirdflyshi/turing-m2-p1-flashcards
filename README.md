@@ -1,71 +1,44 @@
-# FlashCards Starter Kit
+# Turing Mod 2 Project 1 : FlashCards
 
-## Fork This Repo
+## Table Of Contents
 
-On the top right corner of this page, click the **Fork** button.
+* [About](https://github.com/dbirdflyshi/turing-m2-p1-flashcards#about)
+* [Demo GIF](https://github.com/dbirdflyshi/turing-m2-p1-flashcards#demo-gif)
+* [New Methodologies Used](https://github.com/dbirdflyshi/turing-m2-p1-flashcards#new-methodologies-used)
+* [Resources](https://github.com/dbirdflyshi/turing-m2-p1-flashcards#resources)
+* [Install Instructions](https://github.com/dbirdflyshi/turing-m2-p1-flashcards#install--setup-instructions)
 
-## Setup
+## About 
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
+### Functionality
+This is a flash card quiz about array prototype methods performed completely in the command line. The user will be able to see questions, take guesses and see a final score at thends of the round. 
 
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
+### Goals and Objectives
+For the start of module 2, we will focus on test driven development. What this means is that we will be making the code based on the tests you first make.
 
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
+These are the goals
+* Contribute to a partially constructed object oriented application
+* folllow prompts to make a working application
+* implement ES6 classes
+* Write modular code using SRP
+* Implement a robust testing suite using TDD
 
-```bash
-npm install
-```
+[The Lesson Is here](https://frontend.turing.edu/projects/flash-cards.html)
 
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
+## Demo GIF
 
 ![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
 
----
+## New methodologies used
 
-## Test Files Organization
+* Fat arrow for array iteration methods 
+* Ternary conditionals 
+* String interpolation
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
+## Resources
+* [Foreach Loop](https://stackoverflow.com/questions/47433451/foreach-loop-on-array-with-fat-arrow)
+* [Ternary Conditional using the '?'](https://www.freecodecamp.org/news/how-the-question-mark-works-in-javascript/)
 
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+## Install & Setup Instructions
+* Clone this repo to your local machine
+* Run `node index.js`
